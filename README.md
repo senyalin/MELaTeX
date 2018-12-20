@@ -9,9 +9,10 @@
 3. add the project directory to the environemnt variable PYTHONPATH
 4. install the followings python packages:
    * intervaltree 2.1.0
-   * pymongo 3.6.1
    * Whoosh 2.7.4
    * celery 4.2.0rc2
-   * mysql-connector
-   * MySQL-python
-5. nevigate to the website directory and run "python main.py"
+5. put the file "me.xlsx" under "C:/pdfxml_data/InftyCDB-1/resources"
+6. download the dataset from http://www.inftyproject.org/download/inftydb/InftyCDB-1.zip for training the layout module
+   * put the images ".png" under "C:/pdfxml_data/InftyCDB-1/Images"
+7. nevigate to the website directory and run "python main.py"
+8. use http://{service_ip}:{service_port}/nlp/get_pub_xml to retrieve .xml for a given .pdf
