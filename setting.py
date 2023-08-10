@@ -1,0 +1,2 @@
+FILE_NAME = "2_p2_p0"
+DRAW_MODE = False
